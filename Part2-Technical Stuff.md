@@ -1306,7 +1306,7 @@ nvp16k865klvofbbkf7k0mowl *   mgr1       Ready     Active         Leader        
 ubuntu@mgr1:~$ docker swarm join-token worker
 To add a worker to this swarm, run the following command:
 
-    docker swarm join --token SWMTKN-1-33e6su5k0bivi994oqrmu4ejq3g8e2uzsfflpqzwqeutf38xel-78bkbnqjzqrw5dseldsbs9s3h 192.168.64.3:2377
+    docker swarm join --token SWMTKN-1-33e6su5k0bivi99---------seldsbs9s3h 192.168.64.3:2377
 
 ubuntu@mgr1:~$ docker swarm join-token manager
 To add a manager to this swarm, run the following command:
@@ -1320,7 +1320,7 @@ To add a manager to this swarm, run the following command:
 4. Log on to wrk1 and join it to the swarm using the docker with the worker join token.
 
 ```note
-ubuntu@wrk3:~$ docker swarm join --token SWMTKN-1-33e6su5k0bivi994oqrmu4ejq3g8e2uzsfflpqzwqeutf38xel-78bkbnqjzqrw5dseldsbs9s3h 192.168.64.3:2377 --advertise-addr 192.168.64.8:2377 --listen-addr 192.168.64.8:2377
+ubuntu@wrk3:~$ docker swarm join --token SWMTKN-1-33e6su5k0bivi994oqrmu4e-------bkbnqjzqrw5dseldsbs9s3h 192.168.64.3:2377 --advertise-addr 192.168.64.8:2377 --listen-addr 192.168.64.8:2377
 This node joined a swarm as a worker.
 ```
 
